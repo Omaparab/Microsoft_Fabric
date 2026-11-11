@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "ADLS Pipeline"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "789e31cd-d22c-4ece-a69a-66c47d7aa6c8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "Static Pipeline",
+    "description": "Data pipeline for pulling data using http connection from github raw file"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6bfff3cf-ea75-493a-981c-2da5b8f83af8"
+  }
+}

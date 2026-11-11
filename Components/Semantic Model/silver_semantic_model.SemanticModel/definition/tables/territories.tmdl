@@ -1,0 +1,48 @@
+table territories
+	lineageTag: 0c31cb36-f6e0-43e4-a6dc-e57dddc98593
+	sourceLineageTag: [dbo].[territories]
+
+	column SalesTerritoryKey
+		dataType: int64
+		formatString: 0
+		lineageTag: ec8a5b07-c488-4a28-b231-1694d902a879
+		sourceLineageTag: SalesTerritoryKey
+		summarizeBy: count
+		sourceColumn: SalesTerritoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: ab3f8cb8-be85-4ce6-8dd6-03a14ca44012
+		sourceLineageTag: Region
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: 36ac697a-b227-4efb-8d4b-e84275410dee
+		sourceLineageTag: Country
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Continent
+		dataType: string
+		lineageTag: 07264689-917a-4257-9df7-8546d6593b72
+		sourceLineageTag: Continent
+		summarizeBy: none
+		sourceColumn: Continent
+
+		annotation SummarizationSetBy = Automatic
+
+	partition territories = entity
+		mode: directLake
+		source
+			entityName: territories
+			schemaName: dbo
+			expressionSource: 'DirectLake - silver_lakehouse'
+
