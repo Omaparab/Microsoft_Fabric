@@ -1,6 +1,6 @@
 # Microsoft Fabric Learning Project
 
-This repository is a hands-on collection of Microsoft Fabric assets built around the AdventureWorks sample data. It covers data ingestion, lakehouse processing, warehousing, semantic modeling, and an introductory AutoML workflow.
+This repository is a hands-on collection of Microsoft Fabric assets built around the AdventureWorks sample data. It explores the broader Fabric workload areas of Data Factory (pipelines and dataflows), Data Engineering (lakehouse processing with Spark and Delta), Data Science (an introductory AutoML workflow), and Data Analysis (warehousing and semantic modeling).
 
 ## What you'll learn
 
